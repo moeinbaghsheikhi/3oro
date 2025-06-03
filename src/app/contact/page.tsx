@@ -1,3 +1,4 @@
+
 import { Metadata } from 'next';
 import { SectionTitle } from '@/components/sections/SectionTitle';
 import { ContactForm } from '@/components/forms/ContactForm';
@@ -24,7 +25,7 @@ export default function ContactPage() {
     <div className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
-          title="ارتباط با ما"
+          title="ارتباط با 30Ro"
           subtitle="برای دریافت مشاوره رایگان، درخواست دمو یا هرگونه سوال، فرم زیر را تکمیل کنید یا از طریق اطلاعات تماس با ما در ارتباط باشید. تیم ما مشتاقانه منتظر شنیدن صدای شماست."
         />
 
@@ -40,7 +41,7 @@ export default function ContactPage() {
               <div className="space-y-3 text-muted-foreground">
                 <p className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span>ایمیل: info@example.com</span>
+                  <span>ایمیل: info@30ro.com</span>
                 </p>
                 <p className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary" />
@@ -55,13 +56,13 @@ export default function ContactPage() {
             
             <div>
               <h3 className="text-2xl font-semibold text-foreground mb-4 font-headline">موقعیت ما</h3>
-              <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-md border border-border">
-                {/* Placeholder for Google Maps Embed */}
+              <div className="rounded-lg overflow-hidden shadow-md border border-border">
                 <Image 
                   src="https://placehold.co/600x400.png" 
-                  alt="نقشه موقعیت شرکت" 
-                  layout="fill" 
-                  objectFit="cover"
+                  alt="نقشه موقعیت شرکت 30Ro" 
+                  width={600} 
+                  height={400} 
+                  className="w-full h-auto" // Ensures responsiveness
                   data-ai-hint="map location"
                 />
               </div>
