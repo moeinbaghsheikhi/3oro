@@ -27,9 +27,9 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">تماس با ما</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>ایمیل: info@example.com</li>
-              <li>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</li>
-              <li>آدرس: تهران، خیابان ولیعصر، پلاک ۱۲۳</li>
+              <li>ایمیل: info@30ro.com</li>
+              <li>تلفن: ۰۹۰۲۳۳۴۳۲۱۷</li>
+              <li>آدرس: تهران، ونک، خیابان عباسپور</li>
             </ul>
             <div className="flex space-x-4 space-x-reverse mt-6">
               <Link href="#" aria-label="توییتر" className="text-muted-foreground hover:text-primary transition-colors"><Twitter size={20} /></Link>

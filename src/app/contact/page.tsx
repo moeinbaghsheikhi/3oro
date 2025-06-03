@@ -45,11 +45,11 @@ export default function ContactPage() {
                 </p>
                 <p className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary" />
-                  <span>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</span>
+                  <span>تلفن: ۰۹۰۲۳۳۴۳۲۱۷</span>
                 </p>
                 <p className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-primary" />
-                  <span>آدرس: تهران، خیابان ولیعصر، برج فناوری، طبقه پنجم، واحد ۱۰</span>
+                  <span>آدرس: تهران، ونک، خیابان عباسپور</span>
                 </p>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function ContactPage() {
                   alt="نقشه موقعیت شرکت 30Ro" 
                   width={600} 
                   height={400} 
-                  className="w-full h-auto" // Ensures responsiveness
+                  className="w-full h-auto" 
                   data-ai-hint="map location"
                 />
               </div>
