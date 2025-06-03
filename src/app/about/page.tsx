@@ -6,8 +6,8 @@ import Image from 'next/image';
 import { Users, Target, Eye, Zap } from 'lucide-react'; // Example icons
 
 export const metadata: Metadata = {
-  title: 'درباره ما - سامانه جامع مدیریت کسب و کار',
-  description: 'با ماموریت، چشم‌انداز و تیم متخصص ما آشنا شوید. ما به ارائه راهکارهای ERP نوآورانه برای کسب‌وکارهای ایرانی متعهد هستیم.',
+  title: 'درباره ما - 30Ro',
+  description: 'با ماموریت، چشم‌انداز و تیم متخصص 30Ro آشنا شوید. ما به ارائه راهکارهای نوآورانه برای کسب‌وکارهای ایرانی متعهد هستیم.',
 };
 
 const teamMembers = [
@@ -21,7 +21,7 @@ export default function AboutPage() {
     <div className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
-          title="درباره سامانه جامع ERP"
+          title="درباره 30Ro"
           subtitle="ما به توانمندسازی کسب‌وکارهای ایرانی با ارائه راهکارهای نرم‌افزاری پیشرفته و خدمات پشتیبانی بی‌نظیر متعهد هستیم."
         />
 
@@ -39,7 +39,7 @@ export default function AboutPage() {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-primary font-headline">داستان ما</h3>
             <p className="text-muted-foreground leading-relaxed">
-              ما فعالیت خود را با هدف ارائه یک راهکار ERP جامع و بومی‌سازی شده برای نیازهای خاص کسب‌وکارهای ایرانی آغاز کردیم. با تکیه بر دانش فنی تیم متخصص و درک عمیق از چالش‌های بازار ایران، محصولی را توسعه داده‌ایم که نه تنها کارآمد و قدرتمند است، بلکه استفاده از آن نیز ساده و لذت‌بخش می‌باشد.
+              ما فعالیت خود را با هدف ارائه یک راهکار جامع و بومی‌سازی شده به نام 30Ro برای نیازهای خاص کسب‌وکارهای ایرانی آغاز کردیم. با تکیه بر دانش فنی تیم متخصص و درک عمیق از چالش‌های بازار ایران، محصولی را توسعه داده‌ایم که نه تنها کارآمد و قدرتمند است، بلکه استفاده از آن نیز ساده و لذت‌بخش می‌باشد.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               تلاش ما همواره بر این بوده است که با نوآوری مستمر و تمرکز بر رضایت مشتریان، به شریکی قابل اعتماد برای رشد و موفقیت کسب‌وکارها تبدیل شویم.

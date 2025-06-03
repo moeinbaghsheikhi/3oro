@@ -5,8 +5,8 @@ import { Footer } from '@/components/layout/Footer';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'سامانه جامع مدیریت کسب و کار',
-  description: 'راهکاری نوین برای مدیریت یکپارچه کسب و کار شما',
+  title: '30Ro - سیستم جامع مدیریت کسب و کار',
+  description: '30Ro، راهکاری نوین و جامع برای مدیریت یکپارچه کسب و کار شما در ایران.',
 };
 
 export default function RootLayout({

@@ -8,8 +8,8 @@ import Image from 'next/image';
 import { CheckCircle, DollarSign, Users, BarChart2, Settings, ShieldCheck, MessageSquare, Zap } from 'lucide-react'; // Example icons
 
 export const metadata: Metadata = {
-  title: 'امکانات سامانه - سامانه جامع مدیریت کسب و کار',
-  description: 'با امکانات قدرتمند و جامع ERP ما آشنا شوید. مدیریت پروژه، ردیابی مشتریان، فاکتورسازی، گزارش‌گیری و یکپارچه‌سازی در یک پلتفرم.',
+  title: 'امکانات - 30Ro',
+  description: 'با امکانات قدرتمند و جامع 30Ro آشنا شوید. مدیریت پروژه، ردیابی مشتریان، فاکتورسازی، گزارش‌گیری و یکپارچه‌سازی در یک پلتفرم.',
 };
 
 const coreFeatures = [
@@ -38,13 +38,13 @@ export default function FeaturesPage() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="امکانات قدرتمند برای کسب‌وکار شما"
-          subtitle="سیستم ERP ما با مجموعه‌ای از ابزارهای جامع، به شما کمک می‌کند تا تمامی جنبه‌های کسب‌وکار خود را به طور موثر مدیریت کنید و به رشد پایدار دست یابید."
+          subtitle="30Ro با مجموعه‌ای از ابزارهای جامع، به شما کمک می‌کند تا تمامی جنبه‌های کسب‌وکار خود را به طور موثر مدیریت کنید و به رشد پایدار دست یابید."
         />
 
         <div className="mb-16">
           <Image 
             src="https://placehold.co/1200x500.png" 
-            alt="نمایی از امکانات متنوع ERP" 
+            alt="نمایی از امکانات متنوع 30Ro" 
             width={1200} 
             height={500} 
             className="rounded-xl shadow-xl mx-auto border-4 border-primary/20"

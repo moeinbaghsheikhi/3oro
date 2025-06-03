@@ -5,8 +5,8 @@ import Image from 'next/image';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'تماس با ما - سامانه جامع مدیریت کسب و کار',
-  description: 'برای درخواست دمو، دریافت مشاوره یا هرگونه سوال با تیم متخصص ما تماس بگیرید. ما آماده پاسخگویی به شما هستیم.',
+  title: 'تماس با ما - 30Ro',
+  description: 'برای درخواست دمو، دریافت مشاوره یا هرگونه سوال با تیم متخصص 30Ro تماس بگیرید. ما آماده پاسخگویی به شما هستیم.',
 };
 
 const industries = [

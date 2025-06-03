@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Building className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground">سامانه جامع ERP</span>
+              <span className="text-xl font-bold text-foreground">30Ro</span>
             </Link>
             <p className="text-muted-foreground text-sm">
               راهکاری نوین برای مدیریت یکپارچه و رشد کسب و کار شما. ما به توانمندسازی کسب‌وکارها با فناوری ساده و مقیاس‌پذیر متعهد هستیم.
@@ -39,7 +39,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-10 pt-8 border-t border-border/60 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} سامانه جامع ERP. تمامی حقوق محفوظ است.</p>
+          <p>&copy; {new Date().getFullYear()} 30Ro. تمامی حقوق محفوظ است.</p>
         </div>
       </div>
     </footer>

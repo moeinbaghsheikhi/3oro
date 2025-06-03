@@ -1,9 +1,9 @@
 'use server';
 
 /**
- * @fileOverview This file defines a Genkit flow to generate tailored benefits of the ERP system for a specific industry.
+ * @fileOverview This file defines a Genkit flow to generate tailored benefits of the 30Ro system for a specific industry.
  *
- * - generateErpBenefits - A function that generates ERP benefits based on the industry provided.
+ * - generateErpBenefits - A function that generates 30Ro benefits based on the industry provided.
  * - GenerateErpBenefitsInput - The input type for the generateErpBenefits function.
  * - GenerateErpBenefitsOutput - The return type for the generateErpBenefits function.
  */
@@ -17,7 +17,7 @@ const GenerateErpBenefitsInputSchema = z.object({
 export type GenerateErpBenefitsInput = z.infer<typeof GenerateErpBenefitsInputSchema>;
 
 const GenerateErpBenefitsOutputSchema = z.object({
-  benefits: z.string().describe('The tailored benefits of the ERP system for the specified industry, keeping the description concise (around 1-2 short sentences).'),
+  benefits: z.string().describe('The tailored benefits of the 30Ro system for the specified industry, keeping the description concise (around 1-2 short sentences).'),
 });
 export type GenerateErpBenefitsOutput = z.infer<typeof GenerateErpBenefitsOutputSchema>;
 
@@ -29,9 +29,9 @@ const prompt = ai.definePrompt({
   name: 'generateErpBenefitsPrompt',
   input: {schema: GenerateErpBenefitsInputSchema},
   output: {schema: GenerateErpBenefitsOutputSchema},
-  prompt: `You are an expert copywriter specializing in creating persuasive and concise marketing content for ERP systems.
+  prompt: `You are an expert copywriter specializing in creating persuasive and concise marketing content for 30Ro, an ERP system.
 
-You will generate tailored benefits of the ERP system for the following industry, highlighting the key selling points in Persian.
+You will generate tailored benefits of the 30Ro system for the following industry, highlighting the key selling points in Persian.
 Keep the description very short and to the point, ideally 1-2 sentences.
 
 Industry: {{{industry}}}

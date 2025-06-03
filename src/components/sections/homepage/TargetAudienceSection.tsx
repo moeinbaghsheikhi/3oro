@@ -22,7 +22,7 @@ async function IndustryBenefitCard({ industryName, industryValue, icon }: { indu
   } catch (error) {
     console.error(`Failed to generate benefits for ${industryName}:`, error);
     // Keep default or a generic error message if preferred
-    benefitsDescription = `سیستم ERP ما به ${industryName} کمک می‌کند تا فرآیندهای خود را بهینه‌سازی کرده و بهره‌وری را افزایش دهند.`;
+    benefitsDescription = `30Ro به ${industryName} کمک می‌کند تا فرآیندهای خود را بهینه‌سازی کرده و بهره‌وری را افزایش دهند.`;
   }
 
   return (
@@ -46,7 +46,7 @@ export async function TargetAudienceSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle 
           title="راهکاری برای هر کسب‌وکار"
-          subtitle="سیستم ERP ما با انعطاف‌پذیری بالا، برای طیف وسیعی از صنایع طراحی شده است تا نیازهای منحصر به فرد هر کسب‌وکار را پوشش دهد."
+          subtitle="30Ro با انعطاف‌پذیری بالا، برای طیف وسیعی از صنایع طراحی شده است تا نیازهای منحصر به فرد هر کسب‌وکار را پوشش دهد."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {industries.map((industry) => (

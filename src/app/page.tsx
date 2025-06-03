@@ -6,8 +6,8 @@ import { TestimonialsSection } from '@/components/sections/homepage/Testimonials
 import { CtaSection } from '@/components/sections/homepage/CtaSection';
 
 export const metadata: Metadata = {
-  title: 'صفحه اصلی - سامانه جامع مدیریت کسب و کار',
-  description: 'کسب‌وکار خود را با راهکار جامع ERP ما ساده کنید. مناسب برای وکلا، دفاتر خدماتی، مهندسین، و آموزشگاه‌ها.',
+  title: 'صفحه اصلی - 30Ro',
+  description: 'کسب‌وکار خود را با 30Ro ساده کنید. راهکاری جامع مناسب برای وکلا، دفاتر خدماتی، مهندسین، و آموزشگاه‌ها.',
 };
 
 export default function HomePage() {
