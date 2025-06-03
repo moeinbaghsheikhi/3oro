@@ -8,6 +8,16 @@ export default {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        sm: "600px",  // Default was implicitly 640px
+        md: "720px",  // Default was implicitly 768px
+        lg: "960px",  // Default was implicitly 1024px
+        xl: "1100px", // Default was implicitly 1280px
+        "2xl": "1336px",// Default was implicitly 1536px (1536px - 200px = 1336px)
+      },
+    },
     extend: {
       fontFamily: {
         body: ['Noto Sans Arabic', 'sans-serif'],
