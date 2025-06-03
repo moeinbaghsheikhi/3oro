@@ -18,7 +18,7 @@ export function HeroSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="md:order-2 text-center md:text-right">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-foreground mb-6 font-headline leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-foreground mb-6 font-headline leading-tight">
               <span className="text-primary">30Ro</span> یک Erp جامع و حرفه ای
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto md:mx-0 md:mr-auto mb-10">
