@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { SectionTitle } from '@/components/sections/SectionTitle';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { ButtonPrimary } from '@/components/ui/button-primary';
-import { CheckCircle, ShieldCheck } from 'lucide-react';
+import { CheckCircle, ShieldCheck, Star } from 'lucide-react';
 
 const pricingPlans = [
   {
@@ -20,24 +20,42 @@ const pricingPlans = [
     ],
     ctaText: 'مشاوره و خرید پکیج',
     ctaLink: '/contact?plan=crm_sale',
-    icon: <CheckCircle className="w-12 h-12 text-primary mb-4" />,
+    icon: <Star className="w-12 h-12 text-primary mb-4" />, // Changed icon
     highlight: false,
   },
   {
-    title: 'پشتیبانی ماهانه',
-    price: '۲٬۸۰۰٬۰۰۰',
+    title: 'پشتیبانی ۶ ماهه',
+    price: '۷٬۴۰۰٬۰۰۰',
     priceSuffix: 'تومان',
-    billingCycle: 'پرداخت ماهانه',
-    description: 'پشتیبانی فنی و به‌روزرسانی‌های مستمر برای سامانه شما.',
+    billingCycle: 'پرداخت شش ماهه',
+    description: 'پشتیبانی فنی و به‌روزرسانی‌های مستمر برای ۶ ماه.',
     features: [
       'پشتیبانی فنی تلفنی و آنلاین',
       'دریافت به‌روزرسانی‌های نرم‌افزار',
       'رفع اشکالات و مشکلات احتمالی',
       'دسترسی به منابع آموزشی تکمیلی',
     ],
-    ctaText: 'درخواست پشتیبانی',
-    ctaLink: '/contact?plan=monthly_support',
+    ctaText: 'درخواست پشتیبانی ۶ ماهه',
+    ctaLink: '/contact?plan=6month_support',
     icon: <ShieldCheck className="w-12 h-12 text-primary mb-4" />,
+    highlight: false,
+  },
+  {
+    title: 'پشتیبانی ۱ ساله',
+    price: '۱۳٬۹۰۰٬۰۰۰',
+    priceSuffix: 'تومان',
+    billingCycle: 'پرداخت سالانه',
+    description: 'بهترین گزینه برای پشتیبانی جامع و به‌روزرسانی‌های یکساله.',
+    features: [
+      'پشتیبانی فنی کامل (تلفنی، آنلاین، حضوری)',
+      'دریافت تمامی به‌روزرسانی‌های اصلی و فرعی',
+      'اولویت در رفع اشکالات',
+      'مشاوره تخصصی دوره‌ای',
+      'تخفیف ویژه تمدید',
+    ],
+    ctaText: 'درخواست پشتیبانی سالانه',
+    ctaLink: '/contact?plan=1year_support',
+    icon: <ShieldCheck className="w-12 h-12 text-primary mb-4" />, // Kept ShieldCheck, could be different
     highlight: true,
   },
 ];
@@ -50,7 +68,7 @@ export function PricingSection() {
           title="پلن‌های قیمت‌گذاری 30Ro"
           subtitle="راهکاری متناسب با نیاز و بودجه کسب‌وکار شما. شفاف، منعطف و قدرتمند."
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto"> {/* Adjusted max-width for 3 cards */}
           {pricingPlans.map((plan, index) => (
             <Card 
               key={index} 
@@ -64,7 +82,7 @@ export function PricingSection() {
                   <span className="text-md text-muted-foreground ml-1">{plan.priceSuffix}</span>
                 </div>
                 <p className="text-sm text-muted-foreground mt-1">{plan.billingCycle}</p>
-                <CardDescription className="mt-3 text-foreground/90 text-sm h-12">{plan.description}</CardDescription>
+                <CardDescription className="mt-3 text-foreground/90 text-sm h-16">{plan.description}</CardDescription> {/* Increased height for description */}
               </CardHeader>
               <CardContent className="flex-grow p-6 pt-0">
                 <ul className="space-y-3">

@@ -29,7 +29,7 @@ export function Footer() {
             <ul className="space-y-2 text-muted-foreground">
               <li>ایمیل: info@30ro.com</li>
               <li>تلفن: ۰۹۰۲۳۳۴۳۲۱۷</li>
-              <li>آدرس: تهران، ونک، خیابان عباسپور</li>
+              <li>آدرس: -</li>
             </ul>
             <div className="flex space-x-4 space-x-reverse mt-6">
               <Link href="#" aria-label="توییتر" className="text-muted-foreground hover:text-primary transition-colors"><Twitter size={20} /></Link>

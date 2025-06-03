@@ -49,20 +49,19 @@ export default function ContactPage() {
                 </p>
                 <p className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-primary" />
-                  <span>آدرس: تهران، ونک، خیابان عباسپور</span>
+                  <span>آدرس: -</span>
                 </p>
               </div>
             </div>
             
             <div>
               <h3 className="text-2xl font-semibold text-foreground mb-4 font-headline">موقعیت ما</h3>
-              <div className="rounded-lg overflow-hidden shadow-md border border-border">
+              <div className="rounded-lg overflow-hidden shadow-md border border-border aspect-w-16 aspect-h-9">
                 <Image 
                   src="https://kavak.ir/wp-content/uploads/2023/11/types-of-crm.jpg" 
                   alt="نقشه موقعیت شرکت 30Ro" 
-                  width={600} 
-                  height={400} 
-                  className="w-full h-auto object-cover" 
+                  fill
+                  className="object-cover" 
                 />
               </div>
             </div>
