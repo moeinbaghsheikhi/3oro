@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
+        body: ['Noto Sans Arabic', 'sans-serif'],
+        headline: ['Noto Sans Arabic', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
@@ -55,6 +55,7 @@ export default {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
+        // Sidebar specific colors kept from original, though not explicitly used in this design
         sidebar: {
           DEFAULT: 'hsl(var(--sidebar-background))',
           foreground: 'hsl(var(--sidebar-foreground))',
