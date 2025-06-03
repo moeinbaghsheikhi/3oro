@@ -58,17 +58,13 @@ export default function ContactPage() {
               <h3 className="text-2xl font-semibold text-foreground mb-4 font-headline">موقعیت ما</h3>
               <div className="rounded-lg overflow-hidden shadow-md border border-border">
                 <Image 
-                  src="https://placehold.co/600x400.png" 
+                  src="https://kavak.ir/wp-content/uploads/2023/11/types-of-crm.jpg" 
                   alt="نقشه موقعیت شرکت 30Ro" 
                   width={600} 
                   height={400} 
-                  className="w-full h-auto" 
-                  data-ai-hint="map location"
+                  className="w-full h-auto object-cover" 
                 />
               </div>
-              <p className="text-xs text-muted-foreground mt-2 text-center">
-                این یک تصویر جایگزین برای نقشه است.
-              </p>
             </div>
           </div>
         </div>

@@ -43,12 +43,11 @@ export default function FeaturesPage() {
 
         <div className="mb-16">
           <Image 
-            src="https://placehold.co/1200x500.png" 
+            src="https://www.wuerth-phoenix.com/wp-content/uploads/2023/11/software-crm-migliora-efficenza.jpg" 
             alt="نمایی از امکانات متنوع 30Ro" 
             width={1200} 
             height={500} 
-            className="rounded-xl shadow-xl mx-auto border-4 border-primary/20"
-            data-ai-hint="software features collage"
+            className="rounded-xl shadow-xl mx-auto border-4 border-primary/20 object-cover"
           />
         </div>
         

@@ -28,12 +28,11 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16 md:mb-24">
           <div>
             <Image 
-              src="https://placehold.co/600x400.png" 
+              src="https://ns1.omigo.ir/uploads/images3/ad9734b6.jpg" 
               alt="تیم ما در حال کار" 
               width={600} 
               height={400} 
               className="rounded-xl shadow-xl border-4 border-primary/20"
-              data-ai-hint="team working office"
             />
           </div>
           <div className="space-y-6">
@@ -74,12 +73,11 @@ export default function AboutPage() {
           </div>
           <div className="md:order-1">
              <Image 
-              src="https://placehold.co/600x450.png" 
+              src="https://www.digixem360.com/wp-content/uploads/2024/11/Shutterstock_2480023491-1-1024x576.jpg.webp" 
               alt="چشم انداز آینده" 
               width={600} 
               height={450} 
               className="rounded-xl shadow-xl border-4 border-primary/20"
-              data-ai-hint="futuristic abstract technology"
             />
           </div>
         </div>
