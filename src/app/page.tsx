@@ -1,7 +1,9 @@
+
 import { Metadata } from 'next';
 import { HeroSection } from '@/components/sections/homepage/HeroSection';
 import { TargetAudienceSection } from '@/components/sections/homepage/TargetAudienceSection';
 import { KeyBenefitsSection } from '@/components/sections/homepage/KeyBenefitsSection';
+import { PricingSection } from '@/components/sections/homepage/PricingSection';
 import { TestimonialsSection } from '@/components/sections/homepage/TestimonialsSection';
 import { CtaSection } from '@/components/sections/homepage/CtaSection';
 
@@ -16,6 +18,7 @@ export default function HomePage() {
       <HeroSection />
       <TargetAudienceSection />
       <KeyBenefitsSection />
+      <PricingSection />
       <TestimonialsSection />
       <CtaSection />
     </>

@@ -9,6 +9,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 const navLinks = [
   { href: '/', label: 'صفحه اصلی' },
   { href: '/features', label: 'امکانات' },
+  { href: '/#pricing', label: 'قیمت‌ها' },
   { href: '/about', label: 'درباره ما' },
   { href: '/contact', label: 'تماس با ما' },
 ];
@@ -49,6 +50,7 @@ export function Navbar() {
           <nav className="hidden md:flex gap-2">
             <div className="h-6 w-20 bg-muted rounded-md animate-pulse"></div>
             <div className="h-6 w-16 bg-muted rounded-md animate-pulse"></div>
+            <div className="h-6 w-20 bg-muted rounded-md animate-pulse"></div>
             <div className="h-6 w-24 bg-muted rounded-md animate-pulse"></div>
             <div className="h-6 w-20 bg-muted rounded-md animate-pulse"></div>
           </nav>
