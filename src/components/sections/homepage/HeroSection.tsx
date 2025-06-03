@@ -19,7 +19,7 @@ export function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="md:order-2 text-center md:text-right">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-foreground mb-6 font-headline leading-tight">
-              کسب‌وکار خود را با راهکار جامع <span className="text-primary">30Ro</span> ساده کنید
+              <span className="text-primary">30Ro</span> یک Erp جامع و حرفه ای
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto md:mx-0 md:mr-auto mb-10">
               مدیریت یکپارچه، افزایش بهره‌وری، و تصمیم‌گیری هوشمندانه برای تمامی کسب‌وکارها، از دفاتر کوچک تا شرکت‌های بزرگ.
