@@ -17,7 +17,7 @@ const GenerateErpBenefitsInputSchema = z.object({
 export type GenerateErpBenefitsInput = z.infer<typeof GenerateErpBenefitsInputSchema>;
 
 const GenerateErpBenefitsOutputSchema = z.object({
-  benefits: z.string().describe('The tailored benefits of the ERP system for the specified industry.'),
+  benefits: z.string().describe('The tailored benefits of the ERP system for the specified industry, keeping the description concise (around 1-2 short sentences).'),
 });
 export type GenerateErpBenefitsOutput = z.infer<typeof GenerateErpBenefitsOutputSchema>;
 
@@ -29,9 +29,10 @@ const prompt = ai.definePrompt({
   name: 'generateErpBenefitsPrompt',
   input: {schema: GenerateErpBenefitsInputSchema},
   output: {schema: GenerateErpBenefitsOutputSchema},
-  prompt: `You are an expert copywriter specializing in creating persuasive marketing content for ERP systems.
+  prompt: `You are an expert copywriter specializing in creating persuasive and concise marketing content for ERP systems.
 
 You will generate tailored benefits of the ERP system for the following industry, highlighting the key selling points in Persian.
+Keep the description very short and to the point, ideally 1-2 sentences.
 
 Industry: {{{industry}}}
 `,
