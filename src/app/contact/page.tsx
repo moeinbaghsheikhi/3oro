@@ -2,7 +2,6 @@
 import { Metadata } from 'next';
 import { SectionTitle } from '@/components/sections/SectionTitle';
 import { ContactForm } from '@/components/forms/ContactForm';
-import Image from 'next/image';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -47,22 +46,6 @@ export default function ContactPage() {
                   <Phone className="w-5 h-5 text-primary" />
                   <span>تلفن: ۰۹۰۲۳۳۴۳۲۱۷</span>
                 </p>
-                <p className="flex items-center gap-3">
-                  <MapPin className="w-5 h-5 text-primary" />
-                  <span>آدرس: -</span>
-                </p>
-              </div>
-            </div>
-            
-            <div>
-              <h3 className="text-2xl font-semibold text-foreground mb-4 font-headline">موقعیت ما</h3>
-              <div className="rounded-lg overflow-hidden shadow-md border border-border aspect-w-16 aspect-h-9">
-                <Image 
-                  src="https://kavak.ir/wp-content/uploads/2023/11/types-of-crm.jpg" 
-                  alt="نقشه موقعیت شرکت 30Ro" 
-                  fill
-                  className="object-cover" 
-                />
               </div>
             </div>
           </div>
