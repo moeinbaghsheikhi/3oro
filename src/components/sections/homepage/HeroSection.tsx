@@ -32,12 +32,13 @@ export function HeroSection() {
           </div>
           <div className="md:order-1 mt-12 md:mt-0 relative">
             <Image 
-              src="https://www.kkvision.de/hs-fs/hubfs/kk-ERP-System-DE-v2.png?width=2200&height=1530&name=kk-ERP-System-DE-v2.png" 
+              src="https://placehold.co/600x450.png" 
               alt="نمایی از داشبورد 30Ro" 
               width={600} 
               height={450} 
               className="rounded-xl shadow-2xl mx-auto md:mx-0 border-4 border-primary/30"
               priority
+              data-ai-hint="ERP dashboard"
             />
             <div className="absolute -bottom-8 -left-8 w-24 h-24 md:w-32 md:h-32 bg-primary/20 rounded-full blur-2xl opacity-70 animate-pulse" aria-hidden="true"></div>
             <div className="absolute -top-8 -right-8 w-32 h-32 md:w-40 md:h-40 bg-accent/20 rounded-full blur-2xl opacity-70 animate-pulse delay-500" aria-hidden="true"></div>
