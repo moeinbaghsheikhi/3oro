@@ -52,6 +52,12 @@ const nextConfig: NextConfig = {
         hostname: 'taskulu.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'systemintegration.in',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

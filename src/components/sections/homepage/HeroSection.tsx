@@ -33,13 +33,12 @@ export function HeroSection() {
           </div>
           <div className="md:order-1 mt-12 md:mt-0 relative">
             <Image 
-              src="https://taskulu.com/sites/default/files/styles/d11_5_custom/public/1399-10/dynamics-365-crm-technology-has-never-been-easier-adapt-your-business-needs-behaviors-customers.jpeg?h=f7d9296c&itok=2FCaPHzZ"
+              src="https://systemintegration.in/wp-content/uploads/2024/02/banner-crm-software-development-bmv-system-integration.webp"
               alt="نمایی از داشبورد 30Ro" 
               width={600} 
               height={450} 
               className="rounded-xl shadow-2xl mx-auto md:mx-0 border-4 border-primary/30 object-cover"
               priority
-              data-ai-hint="ERP dashboard"
             />
             <div className="absolute -bottom-8 -left-8 w-24 h-24 md:w-32 md:h-32 bg-primary/20 rounded-full blur-2xl opacity-70 animate-pulse" aria-hidden="true"></div>
             <div className="absolute -top-8 -right-8 w-32 h-32 md:w-40 md:h-40 bg-accent/20 rounded-full blur-2xl opacity-70 animate-pulse delay-500" aria-hidden="true"></div>
