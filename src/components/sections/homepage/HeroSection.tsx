@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import { ButtonPrimary } from '@/components/ui/button-primary';
 import Image from 'next/image';
@@ -18,7 +19,7 @@ export function HeroSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="md:order-2 text-center md:text-right">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-foreground mb-6 font-headline leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-4xl font-extrabold text-foreground mb-6 font-headline leading-tight">
               <span className="text-primary">30Ro</span> یک Erp جامع و حرفه ای
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto md:mx-0 md:mr-auto mb-10">
@@ -32,11 +33,11 @@ export function HeroSection() {
           </div>
           <div className="md:order-1 mt-12 md:mt-0 relative">
             <Image 
-              src="https://placehold.co/600x450.png" 
+              src="https://taskulu.com/sites/default/files/styles/d11_5_custom/public/1399-10/dynamics-365-crm-technology-has-never-been-easier-adapt-your-business-needs-behaviors-customers.jpeg?h=f7d9296c&itok=2FCaPHzZ"
               alt="نمایی از داشبورد 30Ro" 
               width={600} 
               height={450} 
-              className="rounded-xl shadow-2xl mx-auto md:mx-0 border-4 border-primary/30"
+              className="rounded-xl shadow-2xl mx-auto md:mx-0 border-4 border-primary/30 object-cover"
               priority
               data-ai-hint="ERP dashboard"
             />
